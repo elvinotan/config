@@ -13,6 +13,6 @@ management:
         include: refresh
 app:
   test:
-    message: First Message 2
+    message: First Message 3
   
 
