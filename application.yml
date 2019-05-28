@@ -4,5 +4,5 @@ spring:
     active: spring-cloud-client
 app:
   test:
-    message: First Message
+    message: First Message1
 
