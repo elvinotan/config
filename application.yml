@@ -9,5 +9,5 @@ management:
         include: refresh
 app:
   test:
-    message: First Message1
+    message: First Message 2
 
