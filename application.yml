@@ -1,7 +1,9 @@
 ---
 spring:
+  application:
+    name: spring-cloud-client
   profiles: 
-    active: spring-cloud-client
+    active: dev
 server:
   port: 9090
 management:
