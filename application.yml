@@ -1,6 +1,6 @@
 ---
 spring:
-  profiles:spring-cloud-config
+  profiles:spring-cloud-client
 app:
   test:
     message:First Message
