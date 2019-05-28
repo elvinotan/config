@@ -1,7 +1,8 @@
 ---
 spring:
-  profiles:spring-cloud-client
+  profiles: 
+    active: spring-cloud-client
 app:
   test:
-    message:First Message
+    message: First Message
 
