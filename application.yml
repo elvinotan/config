@@ -1,1 +1,7 @@
-app.test.message=First Message
+---
+spring:
+  profiles:spring-cloud-config
+app:
+  test:
+    message:First Message
+
