@@ -1,7 +1,6 @@
+---
 spring:
   profiles: dev 
-  application:
-    name: springconfigclient
 management:
   endpoints:
     web:
