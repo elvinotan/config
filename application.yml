@@ -14,5 +14,12 @@ management:
 app:
   test:
     message: First Message 4
-  
-
+    
+---    
+spring:
+  application:
+    name: spring-eureka-server 
+  profiles: 
+    active: dev  
+server:
+  port: 9083
