@@ -16,6 +16,8 @@ app:
     message: First Message 4
     
 ---    
+management:
+  context-path: '/mgmt'
 spring:
   application:
     name: spring-eureka-server 
