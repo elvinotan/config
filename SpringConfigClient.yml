@@ -6,4 +6,4 @@ management:
         include: refresh
 app:
   test:
-    message: First Message 6
+    message: First Message Back to One
