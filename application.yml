@@ -4,8 +4,6 @@ spring:
     name: spring-config-client
   profiles: 
     active: dev
-server:
-  port: 9082
 management:
   endpoints:
     web:
@@ -21,8 +19,6 @@ spring:
     name: spring-eureka-client
   profiles: 
     active: dev
-server:
-  port: 9086
 eureka:
   client:
     serviceUrl:
@@ -41,8 +37,6 @@ spring:
     name: spring-eureka-server 
   profiles: 
     active: dev  
-server:
-  port: 9083
 eureka:
   instance:
     hostname: localhost 
