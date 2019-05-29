@@ -1,6 +1,4 @@
 ---
-management:
-  contextPath: '/mgmt'
 eureka:
   instance:
     hostname: localhost 
