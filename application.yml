@@ -11,7 +11,7 @@ management:
         include: refresh
 app:
   test:
-    message: First Message 4
+    message: First Message 5
     
 ---
 spring:
