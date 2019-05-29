@@ -32,7 +32,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
 ---
 spring:
@@ -42,6 +42,10 @@ spring:
     active: dev
 server:
   port: 9084
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9083/eureka/
 management:
   endpoints:
     web:
