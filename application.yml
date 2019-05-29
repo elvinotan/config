@@ -11,7 +11,7 @@ management:
         include: refresh
 app:
   test:
-    message: First Message 5
+    message: First Message 6
 ---    
 management:
   contextPath: '/mgmt'
