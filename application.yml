@@ -15,6 +15,24 @@ app:
   test:
     message: First Message 4
     
+---
+spring:
+  application:
+    name: spring-eureka-client
+  profiles: 
+    active: dev
+server:
+  port: 9086
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9083/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh    
+        
 ---    
 management:
   contextPath: '/mgmt'
