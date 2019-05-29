@@ -7,3 +7,5 @@ management:
 app:
   test:
     message: Constantine
+server:
+  port: 9081
