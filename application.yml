@@ -1,17 +1,3 @@
----
-spring:
-  application:
-    name: spring-config-client
-  profiles: 
-    active: dev
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
-app:
-  test:
-    message: First Message 6
 ---    
 management:
   contextPath: '/mgmt'
