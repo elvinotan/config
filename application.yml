@@ -32,8 +32,5 @@ spring:
     name: spring-eureka-client
   profiles: 
     active: dev
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://192.168.0.79:9083/eureka
+
 
