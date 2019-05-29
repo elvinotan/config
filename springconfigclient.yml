@@ -1,8 +1,5 @@
 spring:
-  application:
-    name: spring-config-client
-  profiles: 
-    active: dev
+  profiles: dev 
 management:
   endpoints:
     web:
