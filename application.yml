@@ -27,13 +27,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
 
----
-spring:
-  application:
-    name: spring-eureka-client
-  profiles: 
-    active: dev
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_URI:http://192.168.0.79:8761/eureka}
+
