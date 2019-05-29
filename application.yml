@@ -41,7 +41,7 @@ spring:
   profiles: 
     active: dev
 server:
-  port: 9084
+  port: 9085
 eureka:
   client:
     serviceUrl:
