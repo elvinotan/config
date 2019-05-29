@@ -26,6 +26,8 @@ server:
 eureka:
   instance:
     hostname: localhost 
+    statusPageUrlPath: ${management.contextPath}/info
+    healthCheckUrlPath: ${management.contextPath}/health
   client:
     registerWithEureka: false
     fetchRegistry: false
