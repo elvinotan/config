@@ -3,12 +3,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:9083/eureka
+    register-with-eureka: true  
+    fetch-registry: true      
 server:
   port: 9090
-zull:
-  routes:
-    ribbonserver:
-      url: http://localhost:9085
-    ribbonclient:
-      url: http://localhost:9087  
-    
