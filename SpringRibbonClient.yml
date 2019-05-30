@@ -4,4 +4,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:9083/eureka
 server:
-  port: 9087      
+  port: 9087
+management:
+  security: 
+    enabled: false            
