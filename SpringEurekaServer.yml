@@ -6,7 +6,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
 server:
-  port: 9090
-management:
-  security: 
-    enabled: false    
+  port: 9083
