@@ -6,5 +6,7 @@ eureka:
 server:
   port: 9087
 management:
-  security: 
-    enabled: false            
+  endpoints:
+    web:
+      exposure:
+        include: refresh
