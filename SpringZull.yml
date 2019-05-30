@@ -9,4 +9,6 @@ zull:
   routes:
     ribbonserver:
       url: http://localhost:9085
+    ribbonclient:
+      url: http://localhost:9087  
     
