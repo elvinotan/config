@@ -7,3 +7,5 @@ eureka:
     fetchRegistry: true      
 server:
   port: 9090
+zuul:
+  sensitive-headers: Cookie,Set-Cookie
